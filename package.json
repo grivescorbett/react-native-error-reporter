@@ -3,8 +3,7 @@
   "version": "1.0.7",
   "description": "Application Error and Crash Reports for React Native",
   "main": "index.js",
-  "directories": {
-  },
+  "directories": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -52,8 +51,9 @@
   "dependencies": {
     "base-64": "^0.1.0",
     "bluebird": "^2.9.25",
-    "utf8": "^2.1.1",
-    "source-map": "^0.5.6"
+    "source-map": "^0.5.6",
+    "stacktrace-parser": "^0.1.4",
+    "utf8": "^2.1.1"
   },
   "homepage": "https://github.com/VansonLeung/react-native-error-reporter#readme"
 }
